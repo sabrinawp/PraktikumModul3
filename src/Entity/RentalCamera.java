@@ -1,19 +1,16 @@
 package Entity;
 import java.text.SimpleDateFormat;
 import java.util.Date;
-public abstract class AbstractRentalCamera { 
+public class RentalCamera { 
     protected String id,nama,alamat,noIdentitas,notelp; 
     
-public AbstractRentalCamera(String id,String nama, String alamat, String noIdentitas,String notelp){
+public RentalCamera(String id,String nama, String alamat, String noIdentitas,String notelp){
     this.id=id;
     this.nama=nama;
     this.alamat=alamat;
     this.noIdentitas=noIdentitas;
     this.notelp=notelp;
 }
- public AbstractRentalCamera (){ 
-    }  
- 
     public String getId() {
         return id;
     }
