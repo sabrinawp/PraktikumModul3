@@ -1,7 +1,7 @@
 package Entity;
 import java.util.Date;
-public class PetugasEntity extends RentalCamera{
-    public PetugasEntity(String id,String nama,
+public class Sabrina07239_PetugasEntity extends Sabrina07239_RentalCamera{
+    public Sabrina07239_PetugasEntity(String id,String nama,
     String alamat, String noIdentitas,String notelp){
     super(id,nama,alamat,noIdentitas,notelp); 
 }

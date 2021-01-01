@@ -1,8 +1,8 @@
 package Entity;
 import java.util.Date;
-public class PelangganEntity extends RentalCamera {
+public class Sabrina07239_PelangganEntity extends Sabrina07239_RentalCamera {
     protected Date tgl_sewa,tgl_kembali; 
-    public PelangganEntity(String id,String nama,
+    public Sabrina07239_PelangganEntity(String id,String nama,
     String alamat, String noIdentitas,String notelp,Date tgl_sewa,Date tgl_kembali){
         super(id,nama,alamat,noIdentitas,notelp);
         this.tgl_sewa=tgl_sewa;
@@ -27,6 +27,5 @@ public class PelangganEntity extends RentalCamera {
 
     public void setTgl_kembali(Date tgl_kembali) {
         this.tgl_kembali = tgl_kembali;
-    }
-    
+    }   
 }

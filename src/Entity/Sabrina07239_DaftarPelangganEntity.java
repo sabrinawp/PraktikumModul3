@@ -1,16 +1,16 @@
 package Entity;
-public class DaftarPelangganEntity {
-   private PelangganEntity pelanggan; 
+public class Sabrina07239_DaftarPelangganEntity {
+   private Sabrina07239_PelangganEntity pelanggan; 
     private boolean isVerified;
     private int indexCamera; 
     
-     public DaftarPelangganEntity(int indexCamera,PelangganEntity pelanggan, boolean isVerified) { 
+     public Sabrina07239_DaftarPelangganEntity(int indexCamera,Sabrina07239_PelangganEntity pelanggan, boolean isVerified) { 
         this.indexCamera = indexCamera;
         this.pelanggan = pelanggan;
         this.isVerified = isVerified;
     }
 
-    public PelangganEntity getPelanggan() {
+    public Sabrina07239_PelangganEntity getPelanggan() {
         return pelanggan;
     }
 
@@ -23,7 +23,7 @@ public class DaftarPelangganEntity {
         return indexCamera;
     }
 
-    public void setPelanggan(PelangganEntity pelanggan) {
+    public void setPelanggan(Sabrina07239_PelangganEntity pelanggan) {
         this.pelanggan = pelanggan;
     }
 

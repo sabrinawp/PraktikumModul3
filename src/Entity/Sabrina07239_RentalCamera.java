@@ -1,10 +1,10 @@
 package Entity;
 import java.text.SimpleDateFormat;
 import java.util.Date;
-public class RentalCamera { 
+public class Sabrina07239_RentalCamera { 
     protected String id,nama,alamat,noIdentitas,notelp; 
     
-public RentalCamera(String id,String nama, String alamat, String noIdentitas,String notelp){
+public Sabrina07239_RentalCamera(String id,String nama, String alamat, String noIdentitas,String notelp){
     this.id=id;
     this.nama=nama;
     this.alamat=alamat;
